@@ -68,7 +68,7 @@
 
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item me-2">
-            <a class="btn btn-outline-light" href="/login">Login</a>
+            <a class="btn btn-outline-light"  href="/login">Login</a>
           </li>
           <li class="nav-item">
             <a class="btn btn-primary" href="/register">Register</a>

@@ -52,5 +52,16 @@ Route::get('/calendar', function () {
     return Inertia::render('Calendar');
 });
 
+Route::get('/login', function () {
+    return Inertia::render('Login');
+});
+
+Route::get('/register', function () {
+    return Inertia::render('Register');
+});
+
+
+
+
 // Këtu mund të shtohen rrugët e Laravel-it për autentikim më vonë
 // p.sh., Route::get('/login', ...), Route::get('/register', ...)
