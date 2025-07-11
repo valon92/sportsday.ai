@@ -96,7 +96,7 @@ const handleShare = () => {
         <i class="fas fa-map-marker-alt me-1"></i> {{ event.location }}
       </p>
       <div class="mt-3 text-center">
-        <a href="#" class="btn btn-primary btn-sm rounded-pill px-3">View Details</a>
+        <a href="" class="btn btn-primary btn-sm rounded-pill px-3">View Details</a>
       </div>
     </div>
     

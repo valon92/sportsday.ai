@@ -59,7 +59,7 @@ onMounted(() => {
         No upcoming events found. Please check back later!
       </div>
 
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+      <div class="row row-cols-1 row-cols-md-1 row-cols-lg-1 row-cols-xl-1 g-4">
         <div class="col" v-for="event in displayedEvents" :key="event.id">
           <EventCard :event="event" />
         </div>

@@ -2,7 +2,7 @@
   <div class="d-flex flex-column min-vh-100">
     <Navbar />
 
-    <main class="container flex-grow-1 py-4">
+    <main class="flex-grow-1 py-4">
       <slot />
     </main>
 
