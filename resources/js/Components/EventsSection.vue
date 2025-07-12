@@ -51,9 +51,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="events-section py-5 bg-light">
+  <section class="events-section py-1 bg-light">
     <div class="container">
-      <h2 class="text-center mb-5 fw-bold text-dark">Upcoming Sports Events</h2>
       
       <div v-if="displayedEvents.length === 0" class="alert alert-info text-center" role="alert">
         No upcoming events found. Please check back later!
